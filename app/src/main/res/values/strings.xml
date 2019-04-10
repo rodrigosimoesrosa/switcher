@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Switcher</string>
+
+    <string name="switch_declined">Declined</string>
+    <string name="switch_accepted">Accepted</string>
+    <string name="customized_switcher">Customized Switcher</string>
+    <string name="default_switcher">Default Switcher</string>
+</resources>

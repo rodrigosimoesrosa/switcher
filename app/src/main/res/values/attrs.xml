@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LabeledSwitcher">
+        <attr name="labeledSwitchStatusOnText" format="reference|string" localization="suggested"/>
+        <attr name="labeledSwitchStatusOffText" format="reference|string" localization="suggested"/>
+        <attr name="labeledSwitchON" format="boolean"/>
+        <attr name="labeledSwitchBackgroundOnColor" format="color"/>
+        <attr name="labeledSwitchBackgroundOffColor" format="color"/>
+        <attr name="labeledSwitchBorderBackgroundOffColor" format="color"/>
+        <attr name="labeledSwitchOnTextColor" format="color"/>
+        <attr name="labeledSwitchOffTextColor" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/nameSwitchDrawableBackgroundShadow">
+        <shape>
+            <gradient
+                    android:endColor="@color/named_switch_circle_toggle_shadow"
+                    android:centerColor="@color/named_switch_circle_toggle_shadow"
+                    android:startColor="@color/named_switch_circle_toggle_shadow"
+                    android:angle="270"/>
+            <corners
+                    android:radius="20dp" />
+            <padding
+                    android:left="1dp"
+                    android:top="1dp"
+                    android:right="1dp"
+                    android:bottom="1dp"/>
+        </shape>
+    </item>
+    <item android:id="@+id/nameSwitchDrawableBackground">
+        <shape>
+            <gradient
+                    android:endColor="@android:color/white"
+                    android:centerColor="@android:color/white"
+                    android:startColor="@android:color/white"
+                    android:angle="270"/>
+            <corners
+                    android:radius="20dp" />
+            <padding
+                    android:left="8dp"
+                    android:top="4dp"
+                    android:right="8dp"
+                    android:bottom="4dp"/>
+        </shape>
+    </item>
+</layer-list>
